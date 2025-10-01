@@ -22,10 +22,10 @@ Ce site est développé avec React, CSS et React Router pour une expérience uti
 
 ## Technologies utilisées
 
-Front-end : React
-Routing : React Router
-Styling : CSS
-Animations : [Animate.css](https://animate.style/)
+- Front-end : React
+- Routing : React Router
+- Styling : CSS
+- Animations : [Animate.css](https://animate.style/)
 
 ---
 
