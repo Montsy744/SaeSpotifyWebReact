@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'SourGummy';
+    src: url('/public/police/SourGummy-Black.ttf');
+}
+
+#containerApp {
+    background: url('/img/backgroundAcceuil.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#containerApp h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: 'SourGummy';
+}
+
+#btn-start {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
