@@ -1,0 +1,84 @@
+#headerSpotify {
+    color: black;
+    background-color: #1dd661;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#gauche {
+    display: flex;
+    align-items: center;
+}
+
+#gauche img {
+    height: 60px;
+    margin-right: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#btn-home {
+    color: black;
+    width: 50px;
+}
+
+#center *{
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+#droite {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;   
+}
+
+#droite a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.btnToPage {
+    padding: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: black;
+}
+
+.btnToPage:hover {
+    color: rgb(87, 85, 85);
+}
+
+.btnActive:active {
+    transform: scale(0.95);
+}
+
+.underline-effect {
+    position: relative;
+    text-decoration: none;
+}
+
+.underline-effect::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease-out;
+}
+
+.underline-effect:hover::after {
+    width: 100%;
+}
