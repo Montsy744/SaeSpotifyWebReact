@@ -15,8 +15,7 @@ body {
     grid-template-rows: repeat(5, 1fr);
     gap: 40px;
 }
-   
-   
+
 .div1 {
     grid-column: span 3 / span 3;
     grid-row: span 2 / span 2;
@@ -65,7 +64,6 @@ body {
     margin: 10px 20px;
     padding: 20px 0;
     height: 400px;
-    height: 400px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -86,9 +84,7 @@ CardAvis {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    margin-bottom: 20px;
     gap: 20px;
-    animation: scroll-up 20s linear infinite;
     animation: scroll-up 20s linear infinite;
 }
 
