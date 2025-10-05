@@ -3,7 +3,7 @@ import Accueil from "../page/Accueil.jsx";
 import Home from "../page/Home.jsx";
 import Voiture from "../page/voiture.jsx";
 import Velo from "../page/velo.jsx";
-import Covoiturage from "../page/covoiturage.jsx";
+import Cocovoit from "../page/covoiturage.jsx";
 
 function AppRoutes() {
     return (
@@ -12,7 +12,7 @@ function AppRoutes() {
             <Route path="/accueil" element={<Accueil />} />
             <Route path="/voitures" element={<Voiture />} />
             <Route path="/vélos" element={<Velo />} />
-            <Route path="/covoiturage" element={<Covoiturage />} />
+            <Route path="/covoiturage" element={<Cocovoit />} />
         </Routes>
     );
 }
