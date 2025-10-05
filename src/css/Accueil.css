@@ -44,6 +44,7 @@ body {
     background-color: #1dd661;
     margin-right: 20px;
     color: black;
+    
 }
 
 .div5 h1 {
@@ -53,7 +54,7 @@ body {
 .carousel {
     margin: 0 auto;
     padding: 20px 0;
-    height: 40%;
+    height: 400px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
