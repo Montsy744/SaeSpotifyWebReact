@@ -13,7 +13,8 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    gap: 40px;
+    gap: 40px; 
+    margin-bottom: 20px; 
 }
 
 .div1 {
@@ -28,6 +29,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .div3 {
@@ -38,6 +40,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+
 }
 
 .div4 {
@@ -48,6 +52,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+}
+
+.link-card {
+    text-decoration: none;
+    color: inherit;
+    width: 90%;
+}
+
+.link-card:active {
+    transform: scale(0.98);
 }
 
 .div5 {

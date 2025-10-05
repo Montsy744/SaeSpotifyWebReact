@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'outfit';
+    src: url('/public/police/Outfit-Light.ttf');
+}
+
+@font-face {
+    font-family: 'newsreader';
+    src: url('/public/police/Newsreader_9pt-Light.ttf');
+}
+
 .card-choix {
     background-color: #171717;
     color: white;
@@ -6,7 +16,7 @@
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: solid 1px white;
-    min-width: 100%;
+    width: 100%;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -14,7 +24,13 @@
     gap: 8px;
 }
 
-#gauche {
+Link.card-choix,
+Link.card-choix * {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+#gaucheCardChoix {
     grid-column: 1 ;
     grid-row: 1;
     display: flex;
@@ -22,6 +38,23 @@
     justify-content: center;
 }
 
-#droite {
+#droiteCardChoix {
     grid-column: span 2 / span 2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+}
+
+#droiteCardChoix h2 {
+    font-family: 'outfit', sans-serif;
+    font-size: 1.5em;
+}
+
+#droiteCardChoix p {
+    font-family: 'newsreader', serif;
+    font-size: 1em;
+    margin: 0;
+    color: #b3b3b3;
 }

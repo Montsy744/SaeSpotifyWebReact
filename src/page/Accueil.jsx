@@ -16,18 +16,18 @@ function Accueil() {
       <main>
         <div id="mainContainer" className="parent">
           <div class="div1">1</div>
-          <div class="div2 animate__animated animate__rotateInDownLeft" id="voiture">
-            <Link to="/voitures">
+          <div class="div2 animate__animated animate__fadeInUp" id="voiture">
+            <Link to="/voitures" className="link-card">
               <CardChoix titre="Voiture" description="Découvrez nos offres de voitures écologiques."><CarFront size={40} strokeWidth={1.75} /></CardChoix>
             </Link>
           </div>
-          <div class="div3 animate__animated animate__rotateInDownLeft" id="velo">
-            <Link to="/vélos">
+          <div class="div3 animate__animated animate__fadeInUp" id="velo">
+            <Link to="/vélos" className="link-card">
               <CardChoix titre="Vélo" description="Explorez nos options de vélos pour un transport durable." ><Bike size={40}  strokeWidth={1.75} /></CardChoix>
             </Link>
           </div>
-          <div class="div4 animate__animated animate__rotateInDownLeft" id="covoiturage">
-            <Link to="/covoiturage">
+          <div class="div4 animate__animated animate__fadeInUp" id="covoiturage">
+            <Link to="/covoiturage" className="link-card">
               <CardChoix titre="Covoiturage" description="Partagez vos trajets et réduisez votre empreinte carbone." ><Bus size={40}  strokeWidth={1.75} /></CardChoix>
             </Link>
           </div>
