@@ -4,14 +4,13 @@ body {
     color: white;
 }
 
-
 .parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 40px;
 }
-    
+   
 .div1 {
     grid-column: span 3 / span 3;
     grid-row: span 2 / span 2;
@@ -38,16 +37,15 @@ body {
     grid-row: span 3 / span 3;
     grid-column-start: 3;
     grid-row-start: 3;
-
     padding: 10px 20px;
     border: solid 1px black;
     box-shadow: 0 2px 4px rgb(0, 0, 0);
     border-radius: 10px;
     background-color: #1dd661;
-
     margin-right: 20px;
     color: black;
 }
+
 .div5 h1 {
     text-align: center;
 }
@@ -55,27 +53,33 @@ body {
 .carousel {
     margin: 0 auto;
     padding: 20px 0;
-    max-height: 100px;
+    height: 40%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-bottom: 20px;
-    will-change: transform; 
-    animation: scrolling 5s linear infinite;
-    
+CardAvis {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    margin-bottom: 20px;
 }
 
-@keyframes scrolling {
+.group {
+    display: flex;
+    flex-direction: column;;
+    gap: 20px;
+    animation: scroll-up 20s linear infinite;
+}
+
+@keyframes scroll-up {
     0% {
         transform: translateY(0);
     }
     100% {
-        transform: translateY(-190px);
+        transform: translateY(-100%);
     }
 }

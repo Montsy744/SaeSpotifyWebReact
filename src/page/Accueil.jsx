@@ -19,7 +19,7 @@ function Accueil() {
           <div class="div5">
             <h1>Ils le disent mieux que nous ...</h1>
             <div class="carousel">
-              <div class="group">
+              <div class="group" id="group1">
                 <CardAvis
                   nom="Valentino"
                   grade="développeur"
@@ -35,10 +35,40 @@ function Accueil() {
                   grade="Directrice des finances"
                   texte="250 trajets en vélo"
                 />
+                <CardAvis
+                  nom="Hugo"
+                  grade="Lead-dev"
+                  texte="155 km parcourus en covoiturage"
+                />
+                <CardAvis
+                  nom="Eva"
+                  grade="cadre"
+                  texte="Le saviez-vous ? Polluer n'es pas bon"
+                />
+                <CardAvis
+                  nom="Ilies"
+                  grade="Dev Rust"
+                  texte="Plus grand Contributeur de ce projet"
+                />
               </div>
 
               {/*Ajoutez `aria-hidden` pour masquer les cartes dupliquées aux lecteurs d'écran. */}
-              <div aria-hidden class="group">
+              <div aria-hidden class="group" id="group2">
+                <CardAvis
+                  nom="Valentino"
+                  grade="développeur"
+                  texte="Meilleure note attribuée par les collaborateurs"
+                />
+                <CardAvis
+                  nom="Sophie"
+                  grade="manager"
+                  texte="Une équipe au top !"
+                />
+                <CardAvis
+                  nom="Ines"
+                  grade="Directrice des finances"
+                  texte="250 trajets en vélo"
+                />
                 <CardAvis
                   nom="Hugo"
                   grade="Lead-dev"
