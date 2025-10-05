@@ -12,11 +12,8 @@ Ce site est développé avec React, CSS et React Router pour une expérience uti
 
 - Page d’accueil avec présentation de la plateforme et call-to-action
 - Section « Comment ça marche » pour expliquer le concept du covoiturage Spotify
-- Recherche et visualisation de trajets disponibles
-- Inscription et connexion des utilisateurs
-- Tableau de bord utilisateur avec ses trajets et favoris
+- Recherche de trajets disponibles
 - Composants interactifs et animations légères pour une expérience moderne
-- Design responsive adapté à tous types d’écrans
 
 --- 
 
@@ -25,11 +22,11 @@ Ce site est développé avec React, CSS et React Router pour une expérience uti
 - Front-end : React
 - Routing : React Router
 - Styling : CSS
-- Animations : [Animate.css](https://animate.style/)
+- Animations : [Animate.css](https://animate.style/), CSS
 
 ---
 
 ## Auteur
 
 - Hugo Straseele
-- Projet universitaire – Refonte d’un site web pour Spotify
+- Projet universitaire – Refonte d’un site web fictif pour Spotify
