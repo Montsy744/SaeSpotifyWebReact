@@ -21,32 +21,32 @@ function Accueil() {
             <div class="carousel">
               <div class="group" id="group1">
                 <CardAvis
-                  nom="Valentino"
+                  nom="Valentino.P"
                   grade="développeur"
                   texte="Meilleure note attribuée par les collaborateurs"
                 />
                 <CardAvis
-                  nom="Sophie"
+                  nom="Sophie.S"
                   grade="manager"
                   texte="Une équipe au top !"
                 />
                 <CardAvis
-                  nom="Ines"
+                  nom="Ines.H"
                   grade="Directrice des finances"
                   texte="250 trajets en vélo"
                 />
                 <CardAvis
-                  nom="Hugo"
+                  nom="Hugo.S"
                   grade="Lead-dev"
                   texte="155 km parcourus en covoiturage"
                 />
                 <CardAvis
-                  nom="Eva"
+                  nom="Eva.C"
                   grade="cadre"
                   texte="Le saviez-vous ? Polluer n'es pas bon"
                 />
                 <CardAvis
-                  nom="Ilies"
+                  nom="Ilies.H"
                   grade="Dev Rust"
                   texte="Plus grand Contributeur de ce projet"
                 />
@@ -55,32 +55,32 @@ function Accueil() {
               {/*Ajoutez `aria-hidden` pour masquer les cartes dupliquées aux lecteurs d'écran. */}
               <div aria-hidden class="group" id="group2">
                 <CardAvis
-                  nom="Valentino"
+                  nom="Valentino.P"
                   grade="développeur"
                   texte="Meilleure note attribuée par les collaborateurs"
                 />
                 <CardAvis
-                  nom="Sophie"
+                  nom="Sophie.S"
                   grade="manager"
                   texte="Une équipe au top !"
                 />
                 <CardAvis
-                  nom="Ines"
+                  nom="Ines.H"
                   grade="Directrice des finances"
                   texte="250 trajets en vélo"
                 />
                 <CardAvis
-                  nom="Hugo"
+                  nom="Hugo.S"
                   grade="Lead-dev"
                   texte="155 km parcourus en covoiturage"
                 />
                 <CardAvis
-                  nom="Eva"
+                  nom="Eva.C"
                   grade="cadre"
                   texte="Le saviez-vous ? Polluer n'es pas bon"
                 />
                 <CardAvis
-                  nom="Ilies"
+                  nom="Ilies.H"
                   grade="Dev Rust"
                   texte="Plus grand Contributeur de ce projet"
                 />
