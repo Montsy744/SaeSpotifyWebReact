@@ -3,8 +3,11 @@ import { Link } from "react-router-dom";
 
 import HeaderSpotify from "../components/HeaderSpotify.jsx";
 import CardAvis from "../components/CardAvis.jsx";
+import CardChoix from "../components/CardChoix.jsx";
 
 import "../css/Accueil.css";
+
+import {CarFront, Bike, Bus, CircleUser } from 'lucide-react';
 
 function Accueil() {
   return (
@@ -13,10 +16,22 @@ function Accueil() {
       <main>
         <div id="mainContainer" className="parent">
           <div class="div1">1</div>
-          <div class="div2">2</div>
-          <div class="div3">3</div>
-          <div class="div4">4</div>
-          <div class="div5">
+          <div class="div2 animate__animated animate__rotateInDownLeft" id="voiture">
+            <Link to="/voitures">
+              <CardChoix titre="Voiture" description="Découvrez nos offres de voitures écologiques."><CarFront size={40} strokeWidth={1.75} /></CardChoix>
+            </Link>
+          </div>
+          <div class="div3 animate__animated animate__rotateInDownLeft" id="velo">
+            <Link to="/vélos">
+              <CardChoix titre="Vélo" description="Explorez nos options de vélos pour un transport durable." ><Bike size={40}  strokeWidth={1.75} /></CardChoix>
+            </Link>
+          </div>
+          <div class="div4 animate__animated animate__rotateInDownLeft" id="covoiturage">
+            <Link to="/covoiturage">
+              <CardChoix titre="Covoiturage" description="Partagez vos trajets et réduisez votre empreinte carbone." ><Bus size={40}  strokeWidth={1.75} /></CardChoix>
+            </Link>
+          </div>
+          <div class="div5 animate__animated animate__fadeInBottomRight">
             <h1>Ils le disent mieux que nous ...</h1>
             <div class="carousel">
               <div class="group" id="group1">
