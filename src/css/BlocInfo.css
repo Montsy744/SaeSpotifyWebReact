@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "outfit";
+  src: url("/public/police/Outfit-Light.ttf");
+}
+
+@font-face {
+  font-family: "newsreader";
+  src: url("/public/police/Newsreader_9pt-Light.ttf");
+}
+
+.blocInfo {
+  /*background-color: #171717;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 20px;
+  padding: 20px;
+  background: linear-gradient(135deg, #171717, rgb(51, 50, 50), #171717);
+  border-radius: 1.2rem;
+  box-shadow: 0px 0.5rem 1.5rem -0.9rem #FFFFFF;
+}
+
+h2 {
+  font-family: "outfit";
+  font-size: 30px;
+  color: #1dd661;
+}
+.blocInfo-body p {
+  font-family: "newsreader";
+  color: white;
+  font-size: 19px;
+  text-align: justify;
+}
+
+.blocInfo-body {
+  margin: 20px;
+}
