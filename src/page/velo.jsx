@@ -1,4 +1,5 @@
-import { Fragment } from "react";
+import React, { Fragment } from 'react';
+import { Link } from "react-router-dom";
 
 import HeaderSpotify from "../components/HeaderSpotify.jsx";
 import BlocInfo from "../components/BlocInfo.jsx";

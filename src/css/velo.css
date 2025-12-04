@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 .parentVelo {
+=======
+.parent {
+>>>>>>> fbcc76d54c44abdcce328997c5a88fa519c2b3b5
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -6,19 +10,31 @@
   margin: 0;
 }
 
+<<<<<<< HEAD
 .divVelo1 {
+=======
+.div1 {
+>>>>>>> fbcc76d54c44abdcce328997c5a88fa519c2b3b5
   grid-row: span 4 / span 4;
   border: none;
   background-color: transparent;
   box-shadow: none;
 }
 
+<<<<<<< HEAD
 .divVelo2 {
+=======
+.div2 {
+>>>>>>> fbcc76d54c44abdcce328997c5a88fa519c2b3b5
   grid-column: span 2 / span 2;
   grid-row: span 2 / span 2;
 }
 
+<<<<<<< HEAD
 .divVelo3 {
+=======
+.div3 {
+>>>>>>> fbcc76d54c44abdcce328997c5a88fa519c2b3b5
   grid-column: span 2 / span 2;
   grid-row: span 2 / span 2;
   grid-column-start: 2;
