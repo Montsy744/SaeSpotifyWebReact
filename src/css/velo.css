@@ -1,0 +1,26 @@
+.parentVelo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  margin: 0;
+}
+
+.divVelo1 {
+  grid-row: span 4 / span 4;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.divVelo2 {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+}
+
+.divVelo3 {
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-column-start: 2;
+  grid-row-start: 3;
+}
