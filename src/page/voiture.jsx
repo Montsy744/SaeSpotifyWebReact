@@ -6,8 +6,9 @@ import HeaderSpotify from '../components/HeaderSpotify.jsx';
 function Voiture() {
     return (
         <Fragment>
-
             <HeaderSpotify />
+
+            
         </Fragment>
     );
 }

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import HeaderSpotify from "../components/HeaderSpotify.jsx";
 import BlocInfo from "../components/BlocInfo.jsx";
+import BtnClassique from "../components/BtnClassique.jsx";
 
 import "../css/velo.css";
 
@@ -53,11 +54,27 @@ function Velo() {
                 </div>
 
                 <div class="divVelo2">
-                    <BlocInfo titre="Vélo Standard"></BlocInfo>
+                    <BlocInfo titre="Vélo Standard">
+                        <ul className='listeDivVelo'>
+                            <li>Code d'accés aux vélos</li>
+                            <li>Kit de réparation d'urgence</li>
+                        </ul>
+
+                        <BtnClassique titre="souscrire a cette abonnement"/>
+                    </BlocInfo>
                 </div>
 
                 <div class="divVelo3">
-                    <BlocInfo titre="Vélo Electrique"></BlocInfo>
+                    <BlocInfo titre="Vélo Electrique">
+                        <ul className='listeDivVelo'>
+                            <li>Code d'accés aux vélos</li>
+                            <li>Kit de réparation d'urgence</li>
+                            <li>Code d'accés aux vélos éléctriques</li>
+                            <li>Possibilité de réservation sur la carte</li>
+                        </ul>
+
+                        <BtnClassique titre="souscrire a cette abonnement"/>
+                    </BlocInfo>
                 </div>
                 </div>
             </main>

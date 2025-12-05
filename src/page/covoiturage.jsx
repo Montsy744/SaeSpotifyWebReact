@@ -6,7 +6,6 @@ import HeaderSpotify from '../components/HeaderSpotify.jsx';
 function Cocovoit() {
     return (
         <Fragment>
-
             <HeaderSpotify />
         </Fragment>
     );

@@ -1,12 +1,15 @@
+@font-face {
+  font-family: "newsreader";
+  src: url("/public/police/Newsreader_9pt-Light.ttf");
+}
 
 .parentVelo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  gap: 10px;
+  gap: 0px;
   margin: 0;
 }
-
 
 .divVelo1 {
   grid-row: span 4 / span 4;
@@ -25,4 +28,9 @@
   grid-row: span 2 / span 2;
   grid-column-start: 2;
   grid-row-start: 3;
+}
+
+.listeDivVelo {
+  font-size: 19px;
+  font-family: "newsreader";
 }
