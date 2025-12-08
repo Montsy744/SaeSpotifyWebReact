@@ -25,6 +25,14 @@ Ce site est développé avec React, CSS et React Router pour une expérience uti
 - Animations : [Animate.css](https://animate.style/), CSS
 
 ---
+## Comment lancer le serveur du site 
+
+Il vous suffie de cloner ce dépots et de taper la commande :
+```bash
+npm run dev
+```
+
+---
 
 ## Auteur
 
